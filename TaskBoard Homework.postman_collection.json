@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "201c6a65-4f6b-4138-99b9-23321c97c768",
+		"name": "TaskBoard Homework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28698796",
+		"_collection_link": "https://universal-escape-840963.postman.co/workspace/SoftUni-Demo~982aeeab-d690-4bfa-9381-ac8ae37834ce/collection/28698796-201c6a65-4f6b-4138-99b9-23321c97c768?action=share&source=collection_link&creator=28698796"
+	},
+	"item": [
+		{
+			"name": "Tasks",
+			"item": [
+				{
+					"name": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks Copy",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ivo Task From Postman\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks/1",
+							"protocol": "https",
+							"host": [
+								"taskboardjsv02-1",
+								"ivostefanov",
+								"repl",
+								"co"
+							],
+							"path": [
+								"api",
+								"tasks",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks",
+							"protocol": "https",
+							"host": [
+								"taskboardjsv02-1",
+								"ivostefanov",
+								"repl",
+								"co"
+							],
+							"path": [
+								"api",
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks Copy 2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ivo Task From Postman\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks/1",
+							"protocol": "https",
+							"host": [
+								"taskboardjsv02-1",
+								"ivostefanov",
+								"repl",
+								"co"
+							],
+							"path": [
+								"api",
+								"tasks",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ivo Task From Postman\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://taskboardjsv02-1.ivostefanov.repl.co/api/tasks",
+							"protocol": "https",
+							"host": [
+								"taskboardjsv02-1",
+								"ivostefanov",
+								"repl",
+								"co"
+							],
+							"path": [
+								"api",
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://taskboardjsv02-1.ivostefanov.repl.co/boards",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://taskboardjsv02-1.ivostefanov.repl.co/boards",
+							"protocol": "https",
+							"host": [
+								"taskboardjsv02-1",
+								"ivostefanov",
+								"repl",
+								"co"
+							],
+							"path": [
+								"boards"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
